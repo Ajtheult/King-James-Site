@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  background-image: url(../kjd-fontend-test-files/kjd-assets/hearo-top.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+}
+
+.heading_colour {
+  color: black;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.move_icon {
+  color: white;
+  margin-left: 98%;
+}

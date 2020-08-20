@@ -1,0 +1,24 @@
+img.bg {
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+
+  div.admin-bg {
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}

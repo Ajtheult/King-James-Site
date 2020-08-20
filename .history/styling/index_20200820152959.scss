@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(32, 23, 40);
+}
+
+.box {
+  background-image: url(../kjd-fontend-test-files/kjd-assets/hearo-top.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+}
+
+.heading {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.move_icon {
+  color: white;
+  margin-left: 98%;
+  margin-top: 1%;
+}
+
+.box_two {
+  background-color: rgb(111, 36, 155);
+  height: 50%;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 420px;
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
+  div {
+    font-size: 170vw;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  button {
+    border: 1px solid rgb(161, 32, 127);
+    background-color: rgb(111, 36, 155);
+    color: white;
+    padding: 7px 20px;
+
+    font-size: 10px;
+  }
+}
