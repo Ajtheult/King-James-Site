@@ -8,27 +8,23 @@ body {
   background-image: url(../kjd-fontend-test-files/kjd-assets/hearo-top.jpg);
   background-position: center;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
-  .heading {
-    color: black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .move_icon {
-    color: white;
-    margin-left: 96%;
-    margin-top: 1%;
-  }
-  .white_arrow {
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-  }
+}
+
+.heading {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.move_icon {
+  color: white;
+  margin-left: 97%;
+  margin-top: 1%;
 }
 
 .box_two {
@@ -36,13 +32,13 @@ body {
   height: 50%;
   width: 70%;
   position: absolute;
-  top: 68%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 420px;
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
   div {
-    font-size: 265%;
+    font-size: 270%;
     font-family: "Playfair Display", serif;
     text-align: center;
     color: white;
@@ -58,25 +54,9 @@ body {
     color: white;
     padding: 8px 30px;
     font-size: 10px;
-    position: absolute;
-    transform: translate(-70%, 270%);
   }
   .arrow_by_button {
-    transform: translate(30%, 340%);
-  }
-}
-
-.box_three {
-  margin-top: 50%;
-  .move_cross {
-    position: absolute;
-    top: 170%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-  }
-  .move_hex {
-    transform: translate(90%, -60%);
+    transform: translate(-50%, 20%);
   }
 }
 

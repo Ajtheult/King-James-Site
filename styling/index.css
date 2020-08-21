@@ -8,12 +8,12 @@ body {
   background-image: url(../kjd-fontend-test-files/kjd-assets/hearo-top.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
 }
 
-.heading {
+.box .heading {
   color: black;
   position: absolute;
   top: 50%;
@@ -23,10 +23,18 @@ body {
   text-align: center;
 }
 
-.move_icon {
+.box .move_icon {
   color: white;
-  margin-left: 98%;
+  margin-left: 96%;
   margin-top: 1%;
+}
+
+.box .white_arrow {
+  top: 95%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .box_two {
@@ -34,7 +42,7 @@ body {
   height: 50%;
   width: 70%;
   position: absolute;
-  top: 50%;
+  top: 68%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -44,22 +52,48 @@ body {
 }
 
 .box_two div {
-  font-size: 270%;
+  font-size: 265%;
   font-family: "Playfair Display", serif;
   text-align: center;
   color: white;
   margin-top: 2%;
   position: absolute;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .box_two button {
-  border: 1px solid #a1207f;
+  border: 1px solid #ff00f2;
   background-color: #6f249b;
   color: white;
   padding: 8px 30px;
   font-size: 10px;
+  position: absolute;
+  -webkit-transform: translate(-70%, 270%);
+          transform: translate(-70%, 270%);
+}
+
+.box_two .arrow_by_button {
+  -webkit-transform: translate(30%, 340%);
+          transform: translate(30%, 340%);
+}
+
+.box_three {
+  margin-top: 50%;
+}
+
+.box_three .move_cross {
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.box_three .move_hex {
+  -webkit-transform: translate(90%, -60%);
+          transform: translate(90%, -60%);
 }
 
 @media (max-width: 910px) {

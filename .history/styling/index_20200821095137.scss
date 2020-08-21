@@ -58,11 +58,9 @@ body {
     color: white;
     padding: 8px 30px;
     font-size: 10px;
-    position: absolute;
-    transform: translate(-70%, 270%);
   }
   .arrow_by_button {
-    transform: translate(30%, 340%);
+    transform: translate(-50%, 20%);
   }
 }
 
@@ -76,7 +74,7 @@ body {
     z-index: -1;
   }
   .move_hex {
-    transform: translate(90%, -60%);
+    transform: translate(90%, -70%);
   }
 }
 
