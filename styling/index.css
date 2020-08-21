@@ -9,8 +9,8 @@ body {
   background-position: center;
   background-size: cover;
   height: 120vh;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 92%);
+          clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 92%);
 }
 
 .box .heading {
@@ -25,7 +25,7 @@ body {
 
 .box .move_icon {
   color: white;
-  margin-left: 96%;
+  margin-left: 98%;
   margin-top: 1%;
 }
 
@@ -92,17 +92,101 @@ body {
 }
 
 .box_three .move_hex {
-  -webkit-transform: translate(90%, -60%);
-          transform: translate(90%, -60%);
+  -webkit-transform: translate(90%, -125%);
+          transform: translate(90%, -125%);
+}
+
+.box_three .people {
+  -webkit-transform: translate(20%, -102%);
+          transform: translate(20%, -102%);
+}
+
+.box_three .squiggle {
+  -webkit-transform: translate(20%, -720%);
+          transform: translate(20%, -720%);
+}
+
+.box_three .cross_arrow {
+  -webkit-transform: translate(50%, -300%);
+          transform: translate(50%, -300%);
+}
+
+.box_three .text-box {
+  -webkit-transform: translate(95%, -80%);
+          transform: translate(95%, -80%);
+  width: 20%;
+}
+
+.box_three .text-box .title {
+  font-size: 350%;
+  color: white;
+}
+
+.box_three .text-box p {
+  color: white;
+  font-family: "Gruppo", cursive;
+}
+
+.box_three .text-box button {
+  border: 1px solid #ff00f2;
+  background-color: #201728;
+  color: white;
+  padding: 8px 30px;
+  font-size: 10px;
+  position: absolute;
+  -webkit-transform: translate(0%, 50%);
+          transform: translate(0%, 50%);
+}
+
+.box_three .text-box .arrow_by_button {
+  -webkit-transform: translate(230%, 130%);
+          transform: translate(230%, 130%);
+}
+
+.box_four {
+  height: 100vh;
+  background-color: #6f249b;
+  margin-top: -200px;
+  -webkit-clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 @media (max-width: 910px) {
+  .box {
+    background-image: url(../kjd-fontend-test-files/kjd-assets/hearo-top.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+  }
+  .box .heading {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .box .move_icon {
+    color: white;
+    margin-left: 96%;
+    margin-top: 1%;
+  }
+  .box .white_arrow {
+    top: 93%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    position: absolute;
+  }
   .box_two {
     background-color: #6f249b;
     height: 50%;
     width: 70%;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -111,7 +195,7 @@ body {
             clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
   }
   .box_two div {
-    font-size: 160%;
+    font-size: 150%;
     font-family: "Playfair Display", serif;
     text-align: center;
     color: white;
@@ -121,11 +205,35 @@ body {
     padding-right: 10%;
   }
   .box_two button {
-    border: 1px solid #a1207f;
+    border: 1px solid #ff00f2;
     background-color: #6f249b;
     color: white;
     padding: 8px 30px;
-    font-size: 9px;
+    font-size: 10px;
+    position: absolute;
+    -webkit-transform: translate(-90%, 270%);
+            transform: translate(-90%, 270%);
+  }
+  .box_two .arrow_by_button {
+    -webkit-transform: translate(-10%, 450%);
+            transform: translate(-10%, 450%);
+  }
+  .box_three {
+    margin-top: 50%;
+  }
+  .box_three .move_cross {
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .box_three .move_hex {
+    -webkit-transform: translate(70%, 0%);
+            transform: translate(70%, 0%);
+    width: 30%;
+    height: 30%;
   }
 }
 /*# sourceMappingURL=index.css.map */
