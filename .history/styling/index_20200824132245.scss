@@ -319,10 +319,8 @@ body {
     }
     .move_icon {
       color: white;
-      margin-left: 93%;
+      margin-left: 96%;
       margin-top: 1%;
-      width: 30px;
-      height: 30px;
     }
     .white_arrow {
       top: 93%;
@@ -336,20 +334,20 @@ body {
     height: 50%;
     width: 70%;
     position: absolute;
-    top: 62%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 420px;
     clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
     div {
-      font-size: 147%;
+      font-size: 140%;
       font-family: "Playfair Display", serif;
       text-align: center;
       color: white;
       margin-top: 5%;
       position: absolute;
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-left: 10%;
+      padding-right: 10%;
     }
     button {
       border: 2px solid rgb(225, 28, 91);
@@ -358,47 +356,43 @@ body {
       padding: 12px 30px;
       font-size: 10px;
       position: absolute;
-      transform: translate(-100%, 200%);
+      transform: translate(-90%, 270%);
     }
     .arrow_by_button {
-      transform: translate(-30%, 490%);
+      transform: translate(-10%, 450%);
     }
   }
   // Box 3
   .box_three {
-    margin-top: 800px;
+    margin-top: 850px;
     .move_cross {
       position: absolute;
-      top: 160%;
+      top: 170%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: -1;
     }
     .move_hex {
-      transform: translate(50%, 20%);
+      transform: translate(90%, -125%);
       width: 50%;
       height: 50%;
+      // z-index: -1;
     }
     .people {
-      transform: translate(0%, -180%);
-      width: 100%;
-      height: 100%;
+      transform: translate(20%, -102%);
     }
     .squiggle {
-      transform: translate(-30%, -860%);
-      float: right;
+      transform: translate(20%, -720%);
     }
     .cross_arrow {
-      position: absolute;
-      transform: translate(-50%, 100%);
+      transform: translate(50%, -300%);
     }
     .text-box {
-      transform: translate(0%, -230%);
-      text-align: center;
-      padding-left: 5%;
-      padding-right: 5%;
+      transform: translate(95%, -80%);
+      width: 20%;
+      // z-index: 2;
       .title {
-        font-size: 200%;
+        font-size: 350%;
         color: white;
       }
       p {
@@ -412,137 +406,18 @@ body {
         padding: 12px 30px;
         font-size: 10px;
         position: absolute;
-        transform: translate(-20%, 50%);
+        transform: translate(0%, 50%);
       }
       .arrow_by_button {
-        transform: translate(180%, 180%);
+        transform: translate(230%, 130%);
       }
     }
   }
 
   .box_four {
-    height: 150vh;
+    height: 100vh;
     background-color: rgb(111, 36, 155);
-    margin-top: -100px;
-    clip-path: polygon(0 9%, 150% 0%, 100% 100%, 0% 100%);
-    .circle {
-      width: 250px;
-      height: 250px;
-      transform: translate(60%, 90%);
-    }
-    .robot {
-      transform: translate(0%, 80%);
-      width: 100%;
-      -webkit-box-shadow: -1px 2px 38px 7px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: -1px 2px 38px 7px rgba(0, 0, 0, 0.75);
-      box-shadow: -1px 2px 38px 7px rgba(0, 0, 0, 0.75);
-    }
-    .text-box-2 {
-      width: 80%;
-      transform: translate(0%, -230%);
-
-      .title_of_robot {
-        font-size: 312%;
-        color: white;
-        transform: translate(25%, 0%);
-      }
-      p {
-        color: white;
-        font-family: "Montserrat", sans-serif;
-        transform: translate(20%, 10%);
-      }
-      button {
-        border: 2px solid rgb(225, 28, 91);
-        background-color: rgb(111, 36, 155);
-        color: white;
-        padding: 12px 30px;
-        font-size: 10px;
-        position: absolute;
-        transform: translate(170%, 80%);
-      }
-      .arrow_by_button {
-        float: right;
-        transform: translate(-100%, 250%);
-      }
-    }
-    .arrow_with_cross {
-      float: right;
-      transform: translate(-2250%, 95%);
-    }
-  }
-
-  .box_five {
-    height: 160vh;
-    background-color: white;
-    .grid-container {
-      padding-top: 20px;
-      padding-left: 50px;
-      padding-right: 50px;
-      .grid-item {
-        height: 300px;
-        text-align: center;
-        background-position: center;
-        background-size: cover;
-        h6 {
-          color: rgb(204, 32, 104);
-          text-align: left;
-          padding-top: 5%;
-          padding-left: 3%;
-          font-family: "Gruppo", cursive;
-        }
-        p {
-          color: white;
-          font-size: 250%;
-          width: 90%;
-          text-align: left;
-          padding-left: 3%;
-        }
-      }
-      .num_one {
-        background-image: url(../kjd-fontend-test-files/kjd-assets/bg-square-gradient.png);
-        .first_arrow {
-          transform: translate(370%, 30%);
-        }
-      }
-      .num_two {
-        background-image: url(../kjd-fontend-test-files/kjd-assets/bg-rectangle-gradient.png);
-        .second_arrow {
-          transform: translate(370%, 320%);
-        }
-      }
-      .num_three {
-        background-image: url(../kjd-fontend-test-files/kjd-assets/bg-circle-gradient.png);
-        .third_arrow {
-          transform: translate(380%, 300%);
-        }
-      }
-    }
-  }
-
-  .box_six {
-    .grid-container {
-      grid-template-columns: 23% 23% 23% 23%;
-
-      .grid-item {
-        height: 170px;
-        text-align: center;
-        padding: 20px;
-        margin-left: -10px;
-        margin-top: 10px;
-
-        h2 {
-          color: rgb(204, 32, 104);
-          text-align: center;
-        }
-        p {
-          color: white;
-          font-size: 100%;
-
-          text-align: center;
-
-          font-family: "Montserrat", sans-serif;
-        }
-      }
-    }
+    margin-top: -200px;
+    clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
   }
 }

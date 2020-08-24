@@ -521,6 +521,7 @@ body {
 
   .box_six {
     .grid-container {
+      display: flexbox;
       grid-template-columns: 23% 23% 23% 23%;
 
       .grid-item {
