@@ -61,8 +61,7 @@ body {
     position: absolute;
     transform: translate(-300%, 200%);
     animation-name: about-btn;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-duration: 4s;
   }
   .arrow_by_button {
     transform: translate(-550%, 360%);
@@ -72,13 +71,9 @@ body {
 @keyframes about-btn {
   from {
     background-color: rgb(111, 36, 155);
-    border: 2px solid rgb(225, 28, 91);
-    color: white;
   }
   to {
-    background-color: rgb(225, 28, 91);
-    border: 2px solid rgb(111, 36, 155);
-    color: black;
+    background-color: yellow;
   }
 }
 
@@ -268,19 +263,19 @@ body {
   top: 0;
   left: 0;
   background-color: rgb(0, 125, 174);
-  overflow: hidden;
+  overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
   a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #f1f1f1;
+    color: black;
     display: block;
     transition: 0.3s;
   }
   a:hover {
-    color: black;
+    color: #f1f1f1;
   }
   .closebtn {
     position: absolute;

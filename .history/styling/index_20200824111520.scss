@@ -19,7 +19,7 @@ body {
     text-align: center;
   }
   .move_icon {
-    margin-left: 97%;
+    margin-left: 98%;
     margin-top: 0.5%;
     width: 30px;
     height: 30px;
@@ -60,25 +60,9 @@ body {
     font-size: 10px;
     position: absolute;
     transform: translate(-300%, 200%);
-    animation-name: about-btn;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
   }
   .arrow_by_button {
     transform: translate(-550%, 360%);
-  }
-}
-
-@keyframes about-btn {
-  from {
-    background-color: rgb(111, 36, 155);
-    border: 2px solid rgb(225, 28, 91);
-    color: white;
-  }
-  to {
-    background-color: rgb(225, 28, 91);
-    border: 2px solid rgb(111, 36, 155);
-    color: black;
   }
 }
 
@@ -267,20 +251,20 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(0, 125, 174);
-  overflow: hidden;
+  background-color: #111;
+  overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
   a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #f1f1f1;
+    color: #818181;
     display: block;
     transition: 0.3s;
   }
   a:hover {
-    color: black;
+    color: #f1f1f1;
   }
   .closebtn {
     position: absolute;
@@ -289,6 +273,11 @@ body {
     font-size: 36px;
     margin-left: 50px;
   }
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -300,7 +289,6 @@ body {
     font-size: 18px;
   }
 }
-
 // Mobile
 @media (max-width: 910px) {
   .box {

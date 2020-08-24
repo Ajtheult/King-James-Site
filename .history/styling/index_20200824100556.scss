@@ -19,10 +19,9 @@ body {
     text-align: center;
   }
   .move_icon {
-    margin-left: 97%;
-    margin-top: 0.5%;
-    width: 30px;
-    height: 30px;
+    color: white;
+    margin-left: 98%;
+    margin-top: 1%;
   }
   .white_arrow {
     top: 95%;
@@ -59,26 +58,11 @@ body {
     padding: 12px 30px;
     font-size: 10px;
     position: absolute;
-    transform: translate(-300%, 200%);
-    animation-name: about-btn;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    transform: translate(410%, 700%);
   }
   .arrow_by_button {
-    transform: translate(-550%, 360%);
-  }
-}
-
-@keyframes about-btn {
-  from {
-    background-color: rgb(111, 36, 155);
-    border: 2px solid rgb(225, 28, 91);
-    color: white;
-  }
-  to {
-    background-color: rgb(225, 28, 91);
-    border: 2px solid rgb(111, 36, 155);
-    color: black;
+    float: right;
+    transform: translate(710%, 700%);
   }
 }
 
@@ -117,16 +101,16 @@ body {
       font-family: "Montserrat", sans-serif;
     }
     button {
-      border: 2px solid rgb(225, 28, 91);
+      border: 1px solid rgb(225, 28, 91);
       background-color: rgb(32, 23, 40);
       color: white;
-      padding: 12px 30px;
+      padding: 8px 30px;
       font-size: 10px;
       position: absolute;
       transform: translate(0%, 50%);
     }
     .arrow_by_button {
-      transform: translate(240%, 190%);
+      transform: translate(230%, 130%);
     }
   }
 }
@@ -161,16 +145,16 @@ body {
       transform: translate(20%, 10%);
     }
     button {
-      border: 2px solid rgb(225, 28, 91);
+      border: 1px solid rgb(225, 28, 91);
       background-color: rgb(111, 36, 155);
       color: white;
-      padding: 12px 30px;
+      padding: 8px 30px;
       font-size: 10px;
       position: absolute;
       transform: translate(50%, 80%);
     }
     .arrow_by_button {
-      transform: translate(380%, 250%);
+      transform: translate(370%, 170%);
     }
   }
   .arrow_with_cross {
@@ -259,48 +243,6 @@ body {
   }
 }
 
-// Sidenav
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0, 125, 174);
-  overflow: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #f1f1f1;
-    display: block;
-    transition: 0.3s;
-  }
-  a:hover {
-    color: black;
-  }
-  .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {
-    padding-top: 15px;
-  }
-  .sidebar a {
-    font-size: 18px;
-  }
-}
-
 // Mobile
 @media (max-width: 910px) {
   .box {
@@ -350,10 +292,10 @@ body {
       padding-right: 10%;
     }
     button {
-      border: 2px solid rgb(225, 28, 91);
+      border: 1px solid rgb(255, 0, 242);
       background-color: rgb(111, 36, 155);
       color: white;
-      padding: 12px 30px;
+      padding: 8px 30px;
       font-size: 10px;
       position: absolute;
       transform: translate(-90%, 270%);
@@ -400,10 +342,10 @@ body {
         font-family: "Montserrat", sans-serif;
       }
       button {
-        border: 2px solid rgb(225, 28, 91);
+        border: 1px solid rgb(255, 0, 242);
         background-color: rgb(32, 23, 40);
         color: white;
-        padding: 12px 30px;
+        padding: 8px 30px;
         font-size: 10px;
         position: absolute;
         transform: translate(0%, 50%);

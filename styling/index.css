@@ -24,9 +24,10 @@ body {
 }
 
 .box .move_icon {
-  color: white;
-  margin-left: 98%;
-  margin-top: 1%;
+  margin-left: 97%;
+  margin-top: 0.5%;
+  width: 30px;
+  height: 30px;
 }
 
 .box .white_arrow {
@@ -58,24 +59,56 @@ body {
   color: white;
   margin-top: 2%;
   position: absolute;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .box_two button {
-  border: 1px solid #ff00f2;
+  border: 2px solid #e11c5b;
   background-color: #6f249b;
   color: white;
-  padding: 8px 30px;
+  padding: 12px 30px;
   font-size: 10px;
   position: absolute;
-  -webkit-transform: translate(-70%, 270%);
-          transform: translate(-70%, 270%);
+  -webkit-transform: translate(-300%, 200%);
+          transform: translate(-300%, 200%);
+  -webkit-animation-name: about-btn;
+          animation-name: about-btn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .box_two .arrow_by_button {
-  -webkit-transform: translate(30%, 340%);
-          transform: translate(30%, 340%);
+  -webkit-transform: translate(-550%, 360%);
+          transform: translate(-550%, 360%);
+}
+
+@-webkit-keyframes about-btn {
+  from {
+    background-color: #6f249b;
+    border: 2px solid #e11c5b;
+    color: white;
+  }
+  to {
+    background-color: #e11c5b;
+    border: 2px solid #6f249b;
+    color: black;
+  }
+}
+
+@keyframes about-btn {
+  from {
+    background-color: #6f249b;
+    border: 2px solid #e11c5b;
+    color: white;
+  }
+  to {
+    background-color: #e11c5b;
+    border: 2px solid #6f249b;
+    color: black;
+  }
 }
 
 .box_three {
@@ -94,6 +127,7 @@ body {
 .box_three .move_hex {
   -webkit-transform: translate(90%, -125%);
           transform: translate(90%, -125%);
+  z-index: -1;
 }
 
 .box_three .people {
@@ -112,9 +146,10 @@ body {
 }
 
 .box_three .text-box {
-  -webkit-transform: translate(95%, -80%);
-          transform: translate(95%, -80%);
+  -webkit-transform: translate(95%, -55%);
+          transform: translate(95%, -55%);
   width: 20%;
+  z-index: 1;
 }
 
 .box_three .text-box .title {
@@ -124,14 +159,14 @@ body {
 
 .box_three .text-box p {
   color: white;
-  font-family: "Gruppo", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 .box_three .text-box button {
-  border: 1px solid #ff00f2;
+  border: 2px solid #e11c5b;
   background-color: #201728;
   color: white;
-  padding: 8px 30px;
+  padding: 12px 30px;
   font-size: 10px;
   position: absolute;
   -webkit-transform: translate(0%, 50%);
@@ -139,8 +174,8 @@ body {
 }
 
 .box_three .text-box .arrow_by_button {
-  -webkit-transform: translate(230%, 130%);
-          transform: translate(230%, 130%);
+  -webkit-transform: translate(240%, 190%);
+          transform: translate(240%, 190%);
 }
 
 .box_four {
@@ -165,8 +200,8 @@ body {
 }
 
 .box_four .text-box-2 {
-  -webkit-transform: translate(300%, -50%);
-          transform: translate(300%, -50%);
+  -webkit-transform: translate(300%, -40%);
+          transform: translate(300%, -40%);
   width: 20%;
 }
 
@@ -179,16 +214,16 @@ body {
 
 .box_four .text-box-2 p {
   color: white;
-  font-family: "Gruppo", cursive;
+  font-family: "Montserrat", sans-serif;
   -webkit-transform: translate(20%, 10%);
           transform: translate(20%, 10%);
 }
 
 .box_four .text-box-2 button {
-  border: 1px solid #ff00f2;
+  border: 2px solid #e11c5b;
   background-color: #6f249b;
   color: white;
-  padding: 8px 30px;
+  padding: 12px 30px;
   font-size: 10px;
   position: absolute;
   -webkit-transform: translate(50%, 80%);
@@ -196,8 +231,8 @@ body {
 }
 
 .box_four .text-box-2 .arrow_by_button {
-  -webkit-transform: translate(370%, 170%);
-          transform: translate(370%, 170%);
+  -webkit-transform: translate(380%, 250%);
+          transform: translate(380%, 250%);
 }
 
 .box_four .arrow_with_cross {
@@ -274,14 +309,14 @@ body {
 .box_six .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
+  -ms-grid-columns: 23% 23% 23% 23%;
+      grid-template-columns: 23% 23% 23% 23%;
 }
 
 .box_six .grid-container .grid-item {
-  height: 150px;
+  height: 170px;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   margin-left: -10px;
   margin-top: 10px;
 }
@@ -298,7 +333,53 @@ body {
   width: 90%;
   text-align: left;
   padding-left: 3%;
-  font-family: "Gruppo", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #007dae;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: black;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 910px) {
@@ -355,10 +436,10 @@ body {
     padding-right: 10%;
   }
   .box_two button {
-    border: 1px solid #ff00f2;
+    border: 2px solid #e11c5b;
     background-color: #6f249b;
     color: white;
-    padding: 8px 30px;
+    padding: 12px 30px;
     font-size: 10px;
     position: absolute;
     -webkit-transform: translate(-90%, 270%);
@@ -408,13 +489,13 @@ body {
   }
   .box_three .text-box p {
     color: white;
-    font-family: "Gruppo", cursive;
+    font-family: "Montserrat", sans-serif;
   }
   .box_three .text-box button {
-    border: 1px solid #ff00f2;
+    border: 2px solid #e11c5b;
     background-color: #201728;
     color: white;
-    padding: 8px 30px;
+    padding: 12px 30px;
     font-size: 10px;
     position: absolute;
     -webkit-transform: translate(0%, 50%);
