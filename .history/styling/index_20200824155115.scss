@@ -302,7 +302,7 @@ body {
 }
 
 // Mobile
-@media (max-width: 910px) {
+@media (min-width: 555px) {
   .box {
     background-image: url(../kjd-fontend-test-files/kjd-assets/hearo-top.jpg);
     background-position: center;

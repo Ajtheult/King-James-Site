@@ -336,7 +336,7 @@ body {
     height: 50%;
     width: 70%;
     position: absolute;
-    top: 65%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 420px;
@@ -375,15 +375,14 @@ body {
       z-index: -1;
     }
     .move_hex {
-      transform: translate(50%, 0%);
+      transform: translate(50%, 20%);
       width: 50%;
       height: 50%;
     }
     .people {
-      transform: translate(-50%, -100%);
+      transform: translate(0%, -180%);
       width: 100%;
-      height: 50%;
-      position: absolute;
+      height: 100%;
     }
     .squiggle {
       transform: translate(-30%, -860%);
@@ -394,11 +393,10 @@ body {
       transform: translate(-50%, 100%);
     }
     .text-box {
-      transform: translate(5%, -240%);
+      transform: translate(0%, -230%);
       text-align: center;
       padding-left: 5%;
       padding-right: 5%;
-      width: 80%;
       .title {
         font-size: 200%;
         color: white;
@@ -430,10 +428,10 @@ body {
     .circle {
       width: 250px;
       height: 250px;
-      transform: translate(60%, 50%);
+      transform: translate(60%, 90%);
     }
     .robot {
-      transform: translate(0%, 130%);
+      transform: translate(0%, 80%);
       width: 100%;
       -webkit-box-shadow: -1px 2px 38px 7px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: -1px 2px 38px 7px rgba(0, 0, 0, 0.75);
@@ -441,7 +439,7 @@ body {
     }
     .text-box-2 {
       width: 80%;
-      transform: translate(0%, -150%);
+      transform: translate(0%, -230%);
 
       .title_of_robot {
         font-size: 312%;
@@ -464,7 +462,7 @@ body {
       }
       .arrow_by_button {
         float: right;
-        transform: translate(-170%, 250%);
+        transform: translate(-100%, 250%);
       }
     }
     .arrow_with_cross {
@@ -509,14 +507,12 @@ body {
       }
       .num_two {
         background-image: url(../kjd-fontend-test-files/kjd-assets/bg-rectangle-gradient.png);
-        margin-top: 10px;
         .second_arrow {
           transform: translate(370%, 320%);
         }
       }
       .num_three {
         background-image: url(../kjd-fontend-test-files/kjd-assets/bg-circle-gradient.png);
-        margin-top: 10px;
         .third_arrow {
           transform: translate(380%, 300%);
         }
