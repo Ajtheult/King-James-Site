@@ -92,21 +92,20 @@ body {
     z-index: -1;
   }
   .move_hex {
-    transform: translate(90%, -65%);
+    transform: translate(90%, 0%);
     z-index: -1;
   }
   .people {
-    transform: translate(20%, -35%);
+    transform: translate(20%, 0%);
   }
   .squiggle {
-    transform: translate(-600%, -730%);
-    float: right;
+    transform: translate(20%, -720%);
   }
   .cross_arrow {
-    transform: translate(50%, -50%);
+    transform: translate(50%, -300%);
   }
   .text-box {
-    transform: translate(95%, -225%);
+    transform: translate(95%, -300%);
     width: 20%;
     z-index: 1;
     .title {
@@ -135,7 +134,7 @@ body {
 .box_four {
   height: 150vh;
   background-color: rgb(111, 36, 155);
-  margin-top: -350px;
+  margin-top: -100px;
   clip-path: polygon(0 9%, 150% 0%, 100% 100%, 0% 100%);
   .circle {
     position: absolute;
@@ -376,27 +375,27 @@ body {
       z-index: -1;
     }
     .move_hex {
-      transform: translate(50%, 70%);
+      transform: translate(50%, 0%);
       width: 50%;
       height: 50%;
       margin-bottom: 50px;
     }
     .people {
-      transform: translate(-50%, -40%);
+      transform: translate(-50%, -100%);
       width: 100%;
       height: 50%;
       position: absolute;
     }
     .squiggle {
-      transform: translate(-100%, -620%);
+      transform: translate(-30%, -330%);
       float: right;
     }
     .cross_arrow {
       position: absolute;
-      transform: translate(-50%, 220%);
+      transform: translate(-50%, 100%);
     }
     .text-box {
-      transform: translate(5%, -400%);
+      transform: translate(5%, -240%);
       text-align: center;
       padding-left: 5%;
       padding-right: 5%;
@@ -432,10 +431,10 @@ body {
     .circle {
       width: 250px;
       height: 250px;
-      transform: translate(60%, -30%);
+      transform: translate(60%, 50%);
     }
     .robot {
-      transform: translate(0%, 80%);
+      transform: translate(0%, 130%);
       width: 100%;
       -webkit-box-shadow: -1px 2px 38px 7px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: -1px 2px 38px 7px rgba(0, 0, 0, 0.75);
@@ -443,7 +442,7 @@ body {
     }
     .text-box-2 {
       width: 80%;
-      transform: translate(0%, -250%);
+      transform: translate(0%, -150%);
 
       .title_of_robot {
         font-size: 312%;

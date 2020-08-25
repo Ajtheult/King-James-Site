@@ -125,29 +125,30 @@ body {
 }
 
 .box_three .move_hex {
-  -webkit-transform: translate(90%, -125%);
-          transform: translate(90%, -125%);
+  -webkit-transform: translate(90%, -65%);
+          transform: translate(90%, -65%);
   z-index: -1;
 }
 
 .box_three .people {
-  -webkit-transform: translate(20%, -102%);
-          transform: translate(20%, -102%);
+  -webkit-transform: translate(20%, -35%);
+          transform: translate(20%, -35%);
 }
 
 .box_three .squiggle {
-  -webkit-transform: translate(20%, -720%);
-          transform: translate(20%, -720%);
+  -webkit-transform: translate(-600%, -730%);
+          transform: translate(-600%, -730%);
+  float: right;
 }
 
 .box_three .cross_arrow {
-  -webkit-transform: translate(50%, -300%);
-          transform: translate(50%, -300%);
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
 }
 
 .box_three .text-box {
-  -webkit-transform: translate(95%, -55%);
-          transform: translate(95%, -55%);
+  -webkit-transform: translate(95%, -225%);
+          transform: translate(95%, -225%);
   width: 20%;
   z-index: 1;
 }
@@ -181,7 +182,7 @@ body {
 .box_four {
   height: 150vh;
   background-color: #6f249b;
-  margin-top: -100px;
+  margin-top: -350px;
   -webkit-clip-path: polygon(0 9%, 150% 0%, 100% 100%, 0% 100%);
           clip-path: polygon(0 9%, 150% 0%, 100% 100%, 0% 100%);
 }
@@ -237,8 +238,8 @@ body {
 
 .box_four .arrow_with_cross {
   float: right;
-  -webkit-transform: translate(-2250%, 95%);
-          transform: translate(-2250%, 95%);
+  -webkit-transform: translate(-2250%, 55%);
+          transform: translate(-2250%, 55%);
 }
 
 .box_five {
@@ -463,31 +464,32 @@ body {
     z-index: -1;
   }
   .box_three .move_hex {
-    -webkit-transform: translate(50%, 0%);
-            transform: translate(50%, 0%);
+    -webkit-transform: translate(50%, 70%);
+            transform: translate(50%, 70%);
     width: 50%;
     height: 50%;
+    margin-bottom: 50px;
   }
   .box_three .people {
-    -webkit-transform: translate(-50%, -100%);
-            transform: translate(-50%, -100%);
+    -webkit-transform: translate(-50%, -40%);
+            transform: translate(-50%, -40%);
     width: 100%;
     height: 50%;
     position: absolute;
   }
   .box_three .squiggle {
-    -webkit-transform: translate(-30%, -860%);
-            transform: translate(-30%, -860%);
+    -webkit-transform: translate(-100%, -620%);
+            transform: translate(-100%, -620%);
     float: right;
   }
   .box_three .cross_arrow {
     position: absolute;
-    -webkit-transform: translate(-50%, 100%);
-            transform: translate(-50%, 100%);
+    -webkit-transform: translate(-50%, 220%);
+            transform: translate(-50%, 220%);
   }
   .box_three .text-box {
-    -webkit-transform: translate(5%, -240%);
-            transform: translate(5%, -240%);
+    -webkit-transform: translate(5%, -400%);
+            transform: translate(5%, -400%);
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
@@ -525,20 +527,20 @@ body {
   .box_four .circle {
     width: 250px;
     height: 250px;
-    -webkit-transform: translate(60%, 50%);
-            transform: translate(60%, 50%);
+    -webkit-transform: translate(60%, -30%);
+            transform: translate(60%, -30%);
   }
   .box_four .robot {
-    -webkit-transform: translate(0%, 130%);
-            transform: translate(0%, 130%);
+    -webkit-transform: translate(0%, 80%);
+            transform: translate(0%, 80%);
     width: 100%;
     -webkit-box-shadow: -1px 2px 38px 7px rgba(0, 0, 0, 0.75);
     box-shadow: -1px 2px 38px 7px rgba(0, 0, 0, 0.75);
   }
   .box_four .text-box-2 {
     width: 80%;
-    -webkit-transform: translate(0%, -150%);
-            transform: translate(0%, -150%);
+    -webkit-transform: translate(0%, -250%);
+            transform: translate(0%, -250%);
   }
   .box_four .text-box-2 .title_of_robot {
     font-size: 312%;
@@ -564,8 +566,8 @@ body {
   }
   .box_four .text-box-2 .arrow_by_button {
     float: right;
-    -webkit-transform: translate(-170%, 250%);
-            transform: translate(-170%, 250%);
+    -webkit-transform: translate(-100%, 250%);
+            transform: translate(-100%, 250%);
   }
   .box_four .arrow_with_cross {
     float: right;
@@ -607,24 +609,24 @@ body {
     background-image: url(../kjd-fontend-test-files/kjd-assets/bg-square-gradient.png);
   }
   .box_five .grid-container .num_one .first_arrow {
-    -webkit-transform: translate(370%, 30%);
-            transform: translate(370%, 30%);
+    -webkit-transform: translate(370%, -90%);
+            transform: translate(370%, -90%);
   }
   .box_five .grid-container .num_two {
     background-image: url(../kjd-fontend-test-files/kjd-assets/bg-rectangle-gradient.png);
     margin-top: 10px;
   }
   .box_five .grid-container .num_two .second_arrow {
-    -webkit-transform: translate(370%, 320%);
-            transform: translate(370%, 320%);
+    -webkit-transform: translate(370%, 200%);
+            transform: translate(370%, 200%);
   }
   .box_five .grid-container .num_three {
     background-image: url(../kjd-fontend-test-files/kjd-assets/bg-circle-gradient.png);
     margin-top: 10px;
   }
   .box_five .grid-container .num_three .third_arrow {
-    -webkit-transform: translate(380%, 300%);
-            transform: translate(380%, 300%);
+    -webkit-transform: translate(370%, 200%);
+            transform: translate(370%, 200%);
   }
   .box_six .grid-container {
     -ms-grid-columns: auto;
